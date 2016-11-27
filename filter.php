@@ -75,15 +75,19 @@
         if ($searchVal=="Astra") {
           
         }
+
+        echo "<p>Search result for <strong>".$searchVal."</strong> </p>";
+        if ($type!="None") {
+          echo "<p>Filter by Type: ".$type."</p>";
+        }
+        if ($deg!="None") {
+          echo "<p>Filter by Degree: ".$deg."</p>";
+        }
+
+        
       }
         
-      echo "<p>Search result for <strong>".$searchVal."</strong> </p>";
-      if ($type!="None") {
-        echo "<p>Filter by Type: ".$type."</p>";
-      }
-      if ($deg!="None") {
-        echo "<p>Filter by Degree: ".$deg."</p>";
-      }
+      
 
 
 
