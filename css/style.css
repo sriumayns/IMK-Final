@@ -1,4 +1,7 @@
-body {margin: 0;}
+body {
+    margin: 0;
+    font-family: "calibri";
+}
 
 ul.navbar {
     list-style-type: none;
@@ -6,6 +9,7 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #7fcaaa;
+    font-size: 18px;
 }
 
 ul.navbar li {float: left;}
@@ -124,7 +128,7 @@ ul.navbar li.right {float: right;}
 
 
 footer {
-    font-size: 12px;
+    font-size: 14px;
     margin: 50px 0 20px 0;
     text-align: center;
 

@@ -17,15 +17,25 @@
 	<div class="container">
 		<img src="img/Scholaria.png" width="400px" height="110px" align="center">
 		<div class="main-content">
-		<form class="form" action="home.php" method="POST">
-			<input type="text" name="fullname" placeholder="fullname" autofocus="">
-			<input type="text" name="username" placeholder="username">
-			<input type="text" name="email" placeholder="email">
-			<input type="password" name="password" placeholder="password">
-			<input type="password" name="confirmpassword" placeholder="confirmpassword">
-			<button class="btn-search">Register</button>
-		</form>
-		
+			<h3 class="profil-section">Info Pendaftaran</h3>
+			<div class="scholarship-info-container">
+				<p>Nama lengkap:</p>
+				<p>Universitas:</p>
+				<p>Program studi:</p>
+				<p>Alamat:</p>
+				<p>No. telepon:</p>
+				<p>Email:</p>
+			</div>
+			<h3 class="profil-section">Applied Scholarship</h3>
+			<div class="scholarship-info-container">
+				<h3>Scholarship 1</h3>
+        		<p>lalala</p>
+			</div>
+			<div class="scholarship-info-container">
+				<h3>Scholarship 1</h3>
+        		<p>lalala</p>
+			</div>
+			
 		</div>
 	</div>
 	<?php include 'inc/footer.html';?>
