@@ -20,7 +20,7 @@
 			<div class="scholarship-info-container">
 				<p>lalal</p>
 			</div>
-			<form class="form" action="index.html" method="POST">
+			<form class="form" action="applicant.php" method="POST">
 				<p>Nama lengkap:</p>
 				<input type="text" name="fullname" autofocus="">
 				<p>Nama panggilan:</p>

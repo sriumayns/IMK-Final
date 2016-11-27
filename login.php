@@ -16,7 +16,7 @@
 	<div class="container">
 		<img src="img/Scholaria.png" width="400px" height="110px" align="center">
 		<div class="main-content">
-		<form class="form" action="index.html" method="POST">
+		<form class="form" action="home.php" method="POST">
 			<input type="text" name="username" placeholder="username" autofocus="">
 			<input type="password" name="password" placeholder="password">
 			<button class="btn-search">Login</button>
